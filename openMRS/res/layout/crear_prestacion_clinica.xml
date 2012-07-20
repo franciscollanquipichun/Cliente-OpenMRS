@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/fondo" android:paddingLeft="15dip" android:paddingRight="15dip" android:paddingTop="10dip">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:paddingBottom="15dip">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_crear_prestacion_clinica"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/titulo"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_creacion_prestacion_cliente_paciente"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/texto" />
+
+                    <Spinner
+                        android:id="@+id/sp_creacion_prestacion_clinica_paciente"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_creacion_prestacion_clinica_tipo"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/texto" />
+
+                    <Spinner
+                        android:id="@+id/sp_creacion_prestacion_cliente_tipoencuentro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_creacion_prestacion_clinica_providers"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/texto" />
+
+                    <Spinner
+                        android:id="@+id/sp_creacion_prestacion_clinica_provider"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_creacion_prestacion_clinico_fechahora"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/texto" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <DatePicker
+                            android:id="@+id/dp_creacion_prestacion_clinica_fecha"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TimePicker
+                            android:id="@+id/tp_creacion_prestacion_clinica_hora"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="10dip" >
+
+                    <Button
+                        android:id="@+id/btn_crear_prestacion_clinica_crearNueva"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_crear_prestacion_clinica_crear" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

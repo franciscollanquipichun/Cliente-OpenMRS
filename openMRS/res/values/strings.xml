@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, OpenMRSActivity!</string>
+    <string name="app_name">OpenMRS</string>
+    <string name="tv_registro_paciente_nombre">Nombre</string>
+    <string name="tv_registro_paciente_edad">Edad</string>
+    <string name="tv_registro_paciente_sexo">Genero</string>
+    <string name="btn_registro_paciente_crear">Crear persona</string>
+    <string name="tv_login_usuario">Usuario</string>
+    <string name="tv_login_contrasena">Contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="tv_login_titulo">Cliente OpenMRS</string>
+    <string name="tv_registro_paciente_titulo">Registro de paciente</string>
+    <string name="tv_principal_titulo">OpenMRS</string>
+    <string name="tv_principal_subtitulo">MEDICAL RECORD SYSTEM</string>
+    <string name="tv_registro_paciente_apellido">Apellidos</string>
+    <string name="tv_ver_prestacion_clinica_titulo">Ver prestación clínica</string>
+    <string name="tv_crear_prestacion_clinica">Creación de prestación clínica</string>
+    <string name="btn_crear_prestacion_clinica_crear">Crear prestación</string>
+    <string name="tv_registro_persona_titulo">Crear persona</string>
+    <string name="btn_registro_paciente_registro">Registrar paciente</string>
+    <string name="tv_registro_paciente_lista_persona">Lista de personas</string>
+    <string name="tv_creacion_prestacion_cliente_paciente">Paciente</string>
+    <string name="tv_creacion_prestacion_cliente_localidad">Localidad</string>
+    <string name="tv_creacion_prestacion_clinico_fechahora">Fecha y hora</string>
+    <string name="tv_creacion_prestacion_clinica_providers">Provider</string>
+    <string name="tv_creacion_prestacion_clinica_tipo">Tipo</string>
+    <string name="tv_ver_prestacion_clinica_paciente">Paciente</string>
+    <string name="btn_listar">Listar</string>
+    <string name="tv_registro_paciente_persona">Persona</string>
+    <string name="tv_resgistro_paciente_identificador">Identificador</string>
+
+</resources>
